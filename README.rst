@@ -19,7 +19,7 @@ Hailo Model Zoo
    :width: 70
 
 
-.. |compiler| image:: https://img.shields.io/badge/Hailo&nbsp;Dataflow&nbsp;Compiler-3.19-<COLOR>.svg
+.. |compiler| image:: https://img.shields.io/badge/HailoDataflowCompiler-3.19-<COLOR>.svg
    :target: https://hailo.ai/contact-us/
    :alt: Generic badge
    :width: 180
@@ -127,4 +127,4 @@ Please visit `hailo.ai <https://hailo.ai/>`_ for support / requests / issues.
 Changelog
 ---------
 
-For further information please see our `CHANGLOG <docs/CHANGLOG.rst>`_ page.
+For further information please see our `CHANGELOG <docs/CHANGELOG.rst>`_ page.
