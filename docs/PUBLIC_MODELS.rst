@@ -25,7 +25,8 @@ Here, we give the full list of publicly pre-trained models supported by the Hail
   * `Facial Landmark`_
   * `Person Re-ID`_
   * `Person Attribute`_
-  * `Hand Landmark detection`_
+  * `Face Attribute`_
+  * `Hand Landmark Detection`_
   * `Palm Detection`_
   
  
@@ -1082,9 +1083,40 @@ PETA
      - `link <https://github.com/dangweili/pedestrian-attribute-recognition-pytorch>`_
      - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.3.0/person_attr_resnet_v1_18.hef>`_
  
-.. _Hand Landmark detection:
+.. _Face Attribute:
 
-Hand Landmark detection
+Face Attribute
+--------------
+
+CELEBA
+^^^^^^
+
+.. list-table::
+   :widths: 31 9 7 11 9 8 8 8 7
+   :header-rows: 1
+
+   * - Network Name
+     - Mean Accuracy
+     - Quantized
+     - Input Resolution (HxWxC)
+     - Params (M)
+     - FLOPs (G)
+     - Pretrained
+     - Source
+     - Compiled    
+   * - face_attr_resnet_v1_18  
+     - 81.188
+     - 80.79
+     - 218x178x3
+     - 11.74
+     - 1.5
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/FaceAttr/face_attr_resnet_v1_18/2022-06-09/face_attr_resnet_v1_18.zip>`_
+     - `link <https://github.com/d-li14/face-attribute-prediction>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.3.0/face_attr_resnet_v1_18.hef>`_
+ 
+.. _Hand Landmark Detection:
+
+Hand Landmark Detection
 -----------------------
 
 Hand Landmark
