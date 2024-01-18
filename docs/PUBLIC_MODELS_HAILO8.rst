@@ -17,6 +17,11 @@ Here, we give the full list of publicly pre-trained models supported by the Hail
 
   * `Classification`_
   * `Object Detection`_
+  * `Semantic Segmentation`_
+  * `Pose Estimation`_
+  * `Single Person Pose Estimation`_
+  * `Face Detection`_
+  * `Instance Segmentation`_
 
 .. _Classification:
 
