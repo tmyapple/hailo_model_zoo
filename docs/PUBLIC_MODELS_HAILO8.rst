@@ -1215,3 +1215,4 @@ D2S
      - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/d2s/yolact_regnetx_600mf/pretrained/2022-07-19/yolact_regnetx_600mf_d2s.zip>`_
      - `link <https://github.com/dbolya/yolact>`_
      - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolact_regnetx_600mf_d2s_31classes.hef>`_
+
