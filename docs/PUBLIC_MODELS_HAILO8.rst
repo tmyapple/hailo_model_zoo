@@ -1162,12 +1162,4 @@ COCO
      - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolov5/yolov5l/pretrained/2022-10-30/yolov5l-seg.zip>`_
      - `link <https://github.com/ultralytics/yolov5>`_
      - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolov5l_seg.hef>`_
-   * - yolov5m_seg
-     - 37.05
-     - 36.32
-     - 640x640x3
-     - 32.60
-     - 35.47
-     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolov5/yolov5m/pretrained/2022-10-30/yolov5m-seg.zip>`_
-     - `link <https://github.com/ultralytics/yolov5>`_
-     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolov5m_seg.hef>`_
+
