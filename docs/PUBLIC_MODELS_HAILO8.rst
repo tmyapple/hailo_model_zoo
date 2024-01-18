@@ -1153,13 +1153,4 @@ COCO
      - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolact_regnetx_800mf/pretrained/2022-11-30/yolact_regnetx_800mf.zip>`_
      - `link <https://github.com/dbolya/yolact>`_
      - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolact_regnetx_800mf_20classes.hef>`_
-   * - yolact_regnetx_800mf_20classes  |star|
-     - 20.23
-     - 20.22
-     - 512x512x3
-     - 21.97
-     - 51.47
-     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolact_regnetx_800mf/pretrained/2022-11-30/yolact_regnetx_800mf.zip>`_
-     - `link <https://github.com/dbolya/yolact>`_
-     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolact_regnetx_800mf_20classes.hef>`_
 
