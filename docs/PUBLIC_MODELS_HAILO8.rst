@@ -1126,3 +1126,12 @@ COCO
      - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolact_mobilenet_v1/pretrained/2021-01-12/yolact_mobilenet_v1.zip>`_
      - `link <https://github.com/dbolya/yolact>`_
      - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolact_mobilenet_v1.hef>`_
+   * - yolact_regnetx_1.6gf
+     - 27.57
+     - 27.27
+     - 512x512x3
+     - 30.09
+     - 62.67
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolact_regnetx_1.6gf/pretrained/2022-11-30/yolact_regnetx_1.6gf.zip>`_
+     - `link <https://github.com/dbolya/yolact>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolact_regnetx_1.6gf.hef>`_
