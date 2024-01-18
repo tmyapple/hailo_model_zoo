@@ -824,3 +824,389 @@ VisDrone
      - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ObjectDetection/Detection-Visdrone/ssd/ssd_mobilenet_v1_visdrone/pretrained/2021-07-11/ssd_mobilenet_v1_visdrone.zip>`_
      - `link <https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md>`_
      - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/ssd_mobilenet_v1_visdrone.hef>`_
+
+.. _Semantic Segmentation:
+
+Semantic Segmentation
+---------------------
+
+Cityscapes
+^^^^^^^^^^
+
+.. list-table::
+   :widths: 31 7 9 12 9 8 9 8 7
+   :header-rows: 1
+
+   * - Network Name
+     - mIoU
+     - Quantized
+     - Input Resolution (HxWxC)
+     - Params (M)
+     - MAC (G)
+     - Pretrained
+     - Source
+     - Compiled
+   * - fcn16_resnet_v1_18  |star|
+     - 66.83
+     - 66.39
+     - 1024x1920x3
+     - 11.19
+     - 71.26
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Segmentation/Cityscapes/fcn16_resnet_v1_18/pretrained/2022-02-07/fcn16_resnet_v1_18.zip>`_
+     - `link <https://mmsegmentation.readthedocs.io/en/latest>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/fcn16_resnet_v1_18.hef>`_
+   * - fcn8_resnet_v1_18
+     - 68.75
+     - 67.97
+     - 1024x1920x3
+     - 11.20
+     - 71.51
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Segmentation/Cityscapes/fcn8_resnet_v1_18/pretrained/2022-02-09/fcn8_resnet_v1_18.zip>`_
+     - `link <https://mmsegmentation.readthedocs.io/en/latest>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/fcn8_resnet_v1_18.hef>`_
+   * - fcn8_resnet_v1_22
+     - 67.55
+     - 67.39
+     - 1024x1920x3
+     - 15.12
+     - 150.04
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Segmentation/Cityscapes/fcn8_resnet_v1_22/pretrained/2021-07-11/fcn8_resnet_v1_22.zip>`_
+     - `link <https://cv.gluon.ai/model_zoo/segmentation.html>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/fcn8_resnet_v1_22.hef>`_
+   * - stdc1 |rocket|
+     - 74.57
+     - 73.47
+     - 1024x1920x3
+     - 8.27
+     - 63.34
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Segmentation/Cityscapes/stdc1/pretrained/2022-03-17/stdc1.zip>`_
+     - `link <https://mmsegmentation.readthedocs.io/en/latest>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/stdc1.hef>`_
+
+Oxford-IIIT Pet
+^^^^^^^^^^^^^^^
+
+.. list-table::
+   :widths: 31 7 9 12 9 8 9 8 7
+   :header-rows: 1
+
+   * - Network Name
+     - mIoU
+     - Quantized
+     - Input Resolution (HxWxC)
+     - Params (M)
+     - MAC (G)
+     - Pretrained
+     - Source
+     - Compiled
+   * - unet_mobilenet_v2
+     - 77.32
+     - 77.02
+     - 256x256x3
+     - 10.08
+     - 14.44
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Segmentation/Oxford_Pet/unet_mobilenet_v2/pretrained/2022-02-03/unet_mobilenet_v2.zip>`_
+     - `link <https://www.tensorflow.org/tutorials/images/segmentation>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/unet_mobilenet_v2.hef>`_
+
+Pascal VOC
+^^^^^^^^^^
+
+.. list-table::
+   :widths: 36 7 9 12 9 8 9 8 7
+   :header-rows: 1
+
+   * - Network Name
+     - mIoU
+     - Quantized
+     - Input Resolution (HxWxC)
+     - Params (M)
+     - MAC (G)
+     - Pretrained
+     - Source
+     - Compiled
+   * - deeplab_v3_mobilenet_v2
+     - 76.05
+     - 74.8
+     - 513x513x3
+     - 2.10
+     - 8.91
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Segmentation/Pascal/deeplab_v3_mobilenet_v2_dilation/pretrained/2021-09-26/deeplab_v3_mobilenet_v2_dilation.zip>`_
+     - `link <https://github.com/bonlime/keras-deeplab-v3-plus>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/deeplab_v3_mobilenet_v2.hef>`_
+   * - deeplab_v3_mobilenet_v2_wo_dilation
+     - 71.46
+     - 71.08
+     - 513x513x3
+     - 2.10
+     - 1.64
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Segmentation/Pascal/deeplab_v3_mobilenet_v2/pretrained/2021-08-12/deeplab_v3_mobilenet_v2.zip>`_
+     - `link <https://github.com/tensorflow/models/tree/master/research/deeplab>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/deeplab_v3_mobilenet_v2_wo_dilation.hef>`_
+
+.. _Pose Estimation:
+
+Pose Estimation
+---------------
+
+COCO
+^^^^
+
+.. list-table::
+   :widths: 24 8 9 18 9 8 9 8 7
+   :header-rows: 1
+
+   * - Network Name
+     - AP
+     - Quantized
+     - Input Resolution (HxWxC)
+     - Params (M)
+     - MAC (G)
+     - Pretrained
+     - Source
+     - Compiled
+   * - centerpose_regnetx_1.6gf_fpn  |star|
+     - 53.54
+     - 47.65
+     - 640x640x3
+     - 14.28
+     - 32.38
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/PoseEstimation/centerpose_regnetx_1.6gf_fpn/pretrained/2022-03-23/centerpose_regnetx_1.6gf_fpn.zip>`_
+     - `link <https://github.com/tensorboy/centerpose>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/centerpose_regnetx_1.6gf_fpn.hef>`_
+   * - centerpose_regnetx_800mf
+     - 44.07
+     - 41.9
+     - 512x512x3
+     - 12.31
+     - 43.06
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/PoseEstimation/centerpose_regnetx_800mf/pretrained/2021-07-11/centerpose_regnetx_800mf.zip>`_
+     - `link <https://github.com/tensorboy/centerpose>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/centerpose_regnetx_800mf.hef>`_
+   * - centerpose_repvgg_a0  |star|
+     - 39.17
+     - 37.09
+     - 416x416x3
+     - 11.71
+     - 14.15
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/PoseEstimation/centerpose_repvgg_a0/pretrained/2021-09-26/centerpose_repvgg_a0.zip>`_
+     - `link <https://github.com/tensorboy/centerpose>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/centerpose_repvgg_a0.hef>`_
+
+.. _Single Person Pose Estimation:
+
+Single Person Pose Estimation
+-----------------------------
+
+COCO
+^^^^
+
+.. list-table::
+   :widths: 24 8 9 18 9 8 9 8 7
+   :header-rows: 1
+
+   * - Network Name
+     - AP
+     - Quantized
+     - Input Resolution (HxWxC)
+     - Params (M)
+     - MAC (G)
+     - Pretrained
+     - Source
+     - Compiled
+   * - mspn_regnetx_800mf
+     - 70.8
+     - 70.3
+     - 256x192x3
+     - 7.17
+     - 1.47
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/SinglePersonPoseEstimation/mspn_regnetx_800mf/pretrained/2022-07-12/mspn_regnetx_800mf.zip>`_
+     - `link <https://github.com/open-mmlab/mmpose>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/mspn_regnetx_800mf.hef>`_
+
+.. _Face Detection:
+
+Face Detection
+--------------
+
+WiderFace
+^^^^^^^^^
+
+.. list-table::
+   :widths: 24 7 12 11 9 8 8 8 7
+   :header-rows: 1
+
+   * - Network Name
+     - mAP
+     - Quantized
+     - Input Resolution (HxWxC)
+     - Params (M)
+     - MAC (G)
+     - Pretrained
+     - Source
+     - Compiled
+   * - lightface_slim  |star|
+     - 39.7
+     - 39.41
+     - 240x320x3
+     - 0.26
+     - 0.08
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/FaceDetection/lightface_slim/2021-07-18/lightface_slim.zip>`_
+     - `link <https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/lightface_slim.hef>`_
+   * - retinaface_mobilenet_v1  |star|
+     - 81.27
+     - 81.17
+     - 736x1280x3
+     - 3.49
+     - 12.57
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/FaceDetection/retinaface_mobilenet_v1_hd/2021-07-18/retinaface_mobilenet_v1_hd.zip>`_
+     - `link <https://github.com/biubug6/Pytorch_Retinaface>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/retinaface_mobilenet_v1.hef>`_
+   * - scrfd_10g
+     - 82.13
+     - 82.03
+     - 640x640x3
+     - 4.23
+     - 13.37
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/FaceDetection/scrfd/scrfd_10g/pretrained/2022-09-07/scrfd_10g.zip>`_
+     - `link <https://github.com/deepinsight/insightface>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/scrfd_10g.hef>`_
+   * - scrfd_2.5g
+     - 76.59
+     - 76.32
+     - 640x640x3
+     - 0.82
+     - 3.44
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/FaceDetection/scrfd/scrfd_2.5g/pretrained/2022-09-07/scrfd_2.5g.zip>`_
+     - `link <https://github.com/deepinsight/insightface>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/scrfd_2.5g.hef>`_
+   * - scrfd_500m
+     - 68.98
+     - 68.88
+     - 640x640x3
+     - 0.63
+     - 0.75
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/FaceDetection/scrfd/scrfd_500m/pretrained/2022-09-07/scrfd_500m.zip>`_
+     - `link <https://github.com/deepinsight/insightface>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/scrfd_500m.hef>`_
+
+.. _Instance Segmentation:
+
+Instance Segmentation
+---------------------
+
+COCO
+^^^^
+
+.. list-table::
+   :widths: 34 7 7 11 9 8 8 8 7
+   :header-rows: 1
+
+   * - Network Name
+     - mAP-segmentation
+     - Quantized
+     - Input Resolution (HxWxC)
+     - Params (M)
+     - MAC (G)
+     - Pretrained
+     - Source
+     - Compiled
+   * - yolact_mobilenet_v1
+     - 14.98
+     - 14.86
+     - 512x512x3
+     - 19.11
+     - 51.92
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolact_mobilenet_v1/pretrained/2021-01-12/yolact_mobilenet_v1.zip>`_
+     - `link <https://github.com/dbolya/yolact>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolact_mobilenet_v1.hef>`_
+   * - yolact_regnetx_1.6gf
+     - 27.57
+     - 27.27
+     - 512x512x3
+     - 30.09
+     - 62.67
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolact_regnetx_1.6gf/pretrained/2022-11-30/yolact_regnetx_1.6gf.zip>`_
+     - `link <https://github.com/dbolya/yolact>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolact_regnetx_1.6gf.hef>`_
+   * - yolact_regnetx_800mf
+     - 25.61
+     - 25.5
+     - 512x512x3
+     - 28.3
+     - 58.375
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolact_regnetx_800mf/pretrained/2022-11-30/yolact_regnetx_800mf.zip>`_
+     - `link <https://github.com/dbolya/yolact>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolact_regnetx_800mf.hef>`_
+   * - yolact_regnetx_800mf_20classes  |star|
+     - 20.23
+     - 20.22
+     - 512x512x3
+     - 21.97
+     - 51.47
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolact_regnetx_800mf/pretrained/2022-11-30/yolact_regnetx_800mf.zip>`_
+     - `link <https://github.com/dbolya/yolact>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolact_regnetx_800mf_20classes.hef>`_
+   * - yolov5l_seg
+     - 39.78
+     - 39.09
+     - 640x640x3
+     - 47.89
+     - 73.94
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolov5/yolov5l/pretrained/2022-10-30/yolov5l-seg.zip>`_
+     - `link <https://github.com/ultralytics/yolov5>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolov5l_seg.hef>`_
+   * - yolov5m_seg
+     - 37.05
+     - 36.32
+     - 640x640x3
+     - 32.60
+     - 35.47
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolov5/yolov5m/pretrained/2022-10-30/yolov5m-seg.zip>`_
+     - `link <https://github.com/ultralytics/yolov5>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolov5m_seg.hef>`_
+   * - yolov5n_seg
+     - 23.35
+     - 22.24
+     - 640x640x3
+     - 1.99
+     - 3.55
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolov5/yolov5n/pretrained/2022-10-30/yolov5n-seg.zip>`_
+     - `link <https://github.com/ultralytics/yolov5>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolov5n_seg.hef>`_
+   * - yolov5s_seg
+     - 31.57
+     - 30.49
+     - 640x640x3
+     - 7.61
+     - 13.21
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolov5/yolov5s/pretrained/2022-10-30/yolov5s-seg.zip>`_
+     - `link <https://github.com/ultralytics/yolov5>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolov5s_seg.hef>`_
+
+D2S
+^^^
+
+.. list-table::
+   :widths: 34 7 7 11 9 8 8 8 7
+   :header-rows: 1
+
+   * - Network Name
+     - mAP-segmentation
+     - Quantized
+     - Input Resolution (HxWxC)
+     - Params (M)
+     - MAC (G)
+     - Pretrained
+     - Source
+     - Compiled
+   * - yolact_regnetx_600mf_d2s_31classes
+     - 62.48
+     - 63.36
+     - 512x512x3
+     - 22.14
+     - 51.62
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/d2s/yolact_regnetx_600mf/pretrained/2022-07-19/yolact_regnetx_600mf_d2s.zip>`_
+     - `link <https://github.com/dbolya/yolact>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolact_regnetx_600mf_d2s_31classes.hef>`_
