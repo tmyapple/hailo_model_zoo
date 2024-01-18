@@ -90,17 +90,6 @@ ImageNet
      - `download <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.10.0/hailo8/efficientnet_lite2.hef>`_
      - 433.436
      - 433.435
-   * - efficientnet_lite3
-     - 79.29
-     - 78.33
-     - 280x280x3
-     - 8.16
-     - 2.8
-     - `download <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Classification/efficientnet_lite3/pretrained/2023-07-18/efficientnet_lite3.zip>`_
-     - `link <https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet>`_
-     - `download <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.10.0/hailo8/efficientnet_lite3.hef>`_
-     - 223.849
-     - 223.848
    * - efficientnet_lite4
      - 80.79
      - 79.99
