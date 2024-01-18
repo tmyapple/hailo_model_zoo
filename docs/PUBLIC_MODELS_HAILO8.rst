@@ -1096,3 +1096,96 @@ WiderFace
      - `link <https://github.com/deepinsight/insightface>`_
      - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/scrfd_500m.hef>`_
 
+.. _Instance Segmentation:
+
+Instance Segmentation
+---------------------
+
+COCO
+^^^^
+
+.. list-table::
+   :widths: 34 7 7 11 9 8 8 8 7
+   :header-rows: 1
+
+   * - Network Name
+     - mAP-segmentation
+     - Quantized
+     - Input Resolution (HxWxC)
+     - Params (M)
+     - MAC (G)
+     - Pretrained
+     - Source
+     - Compiled
+   * - yolact_mobilenet_v1
+     - 14.98
+     - 14.86
+     - 512x512x3
+     - 19.11
+     - 51.92
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolact_mobilenet_v1/pretrained/2021-01-12/yolact_mobilenet_v1.zip>`_
+     - `link <https://github.com/dbolya/yolact>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolact_mobilenet_v1.hef>`_
+   * - yolact_regnetx_1.6gf
+     - 27.57
+     - 27.27
+     - 512x512x3
+     - 30.09
+     - 62.67
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolact_regnetx_1.6gf/pretrained/2022-11-30/yolact_regnetx_1.6gf.zip>`_
+     - `link <https://github.com/dbolya/yolact>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolact_regnetx_1.6gf.hef>`_
+   * - yolact_regnetx_800mf
+     - 25.61
+     - 25.5
+     - 512x512x3
+     - 28.3
+     - 58.375
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolact_regnetx_800mf/pretrained/2022-11-30/yolact_regnetx_800mf.zip>`_
+     - `link <https://github.com/dbolya/yolact>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolact_regnetx_800mf.hef>`_
+   * - yolact_regnetx_800mf_20classes  |star|
+     - 20.23
+     - 20.22
+     - 512x512x3
+     - 21.97
+     - 51.47
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolact_regnetx_800mf/pretrained/2022-11-30/yolact_regnetx_800mf.zip>`_
+     - `link <https://github.com/dbolya/yolact>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolact_regnetx_800mf_20classes.hef>`_
+   * - yolov5l_seg
+     - 39.78
+     - 39.09
+     - 640x640x3
+     - 47.89
+     - 73.94
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolov5/yolov5l/pretrained/2022-10-30/yolov5l-seg.zip>`_
+     - `link <https://github.com/ultralytics/yolov5>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolov5l_seg.hef>`_
+   * - yolov5m_seg
+     - 37.05
+     - 36.32
+     - 640x640x3
+     - 32.60
+     - 35.47
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolov5/yolov5m/pretrained/2022-10-30/yolov5m-seg.zip>`_
+     - `link <https://github.com/ultralytics/yolov5>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolov5m_seg.hef>`_
+   * - yolov5n_seg
+     - 23.35
+     - 22.24
+     - 640x640x3
+     - 1.99
+     - 3.55
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolov5/yolov5n/pretrained/2022-10-30/yolov5n-seg.zip>`_
+     - `link <https://github.com/ultralytics/yolov5>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolov5n_seg.hef>`_
+   * - yolov5s_seg
+     - 31.57
+     - 30.49
+     - 640x640x3
+     - 7.61
+     - 13.21
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolov5/yolov5s/pretrained/2022-10-30/yolov5s-seg.zip>`_
+     - `link <https://github.com/ultralytics/yolov5>`_
+     - `link <https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ModelZoo/Compiled/v2.7.0/yolov5s_seg.hef>`_
